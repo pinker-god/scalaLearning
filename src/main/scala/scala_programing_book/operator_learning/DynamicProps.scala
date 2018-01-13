@@ -51,5 +51,4 @@ object DynamicDemo extends App {
   //这个调用apply
   val neo = person.findByLastName("Neo")
   person.applyDynamic("test")("hs")
-
 }
